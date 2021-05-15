@@ -35,7 +35,7 @@ _or_
 
 [download from google drive.](https://drive.google.com/drive/folders/1DiVZc7tjy-C0CJXh1aPl3OakzJfMI5HP?usp=sharing)
 
-Just be sure to leave the file in the [weights folder]() and [convert the weights file.](https://github.com/CarlosPuello/objectDetectionPython#converting-weights-file)
+Just be sure to leave the file in the [weights folder](https://github.com/CarlosPuello/objectDetectionPython/tree/master/weights) and [convert the weights file.](https://github.com/CarlosPuello/objectDetectionPython#converting-weights-file)
 
 ## Training
 
@@ -48,7 +48,7 @@ Be sure to update [examanager.names](https://github.com/CarlosPuello/objectDetec
 
 ## Converting weights file
 
-The resulting .weights file should be placed in [the weights folder](https://github.com/CarlosPuello/objectDetectionPython/tree/master/weights) and then converted to a tensorflow model using [convert_weights.py](hhttps://github.com/CarlosPuello/objectDetectionPython/blob/master/convert_weights.py).
+The resulting .weights file should be placed in [the weights folder](https://github.com/CarlosPuello/objectDetectionPython/tree/master/weights) and then converted to a tensorflow model using [convert_weights.py](https://github.com/CarlosPuello/objectDetectionPython/blob/master/convert_weights.py).
 
 ## Sources:
 
