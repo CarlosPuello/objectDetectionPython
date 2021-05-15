@@ -39,7 +39,7 @@ Just be sure to leave the file in the [weights folder](https://github.com/Carlos
 
 ## Training
 
-To train a model for this project, you need to download and label images (I suggest using [AIGuysCode's OIDv4 ToolKit fork](https://github.com/theAIGuysCode/OIDv4_ToolKit)) and then train it in Darknet, the dataset used for our project can be downloaded from [here](https://drive.google.com/file/d/1k4lNSpqr0f1t98BJb2lrZ3vqsw4_wAks/view?usp=sharing) with the proper annotations already generated.
+To train a model for this project, you need to download and label images (I suggest using [AIGuysCode's OIDv4 ToolKit fork](https://github.com/theAIGuysCode/OIDv4_ToolKit)) and then train it in _Darknet_, the dataset used for our project can be downloaded from [here](https://drive.google.com/file/d/1k4lNSpqr0f1t98BJb2lrZ3vqsw4_wAks/view?usp=sharing) with the proper annotations already generated.
 
 After that, [convert the weights file.](https://github.com/CarlosPuello/objectDetectionPython#converting-weights-file)
 
