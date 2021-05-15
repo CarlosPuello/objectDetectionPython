@@ -2,7 +2,7 @@
 
 ## Structure
 
-![](https://i.imgur.com/TgevKPc.png)
+![](https://i.imgur.com/WxKDzU5.png)
 Note: YOLOv3 is not directly contained in this repo, check sources for YOLOv3's website.
 
 ## Requirements
@@ -39,7 +39,7 @@ Just be sure to leave the file in the [weights folder]() and [convert the weight
 
 ## Training
 
-To train a model for this project, you need to download and label images (I suggest using [AIGuysCode's OIDv4 ToolKit fork](https://github.com/theAIGuysCode/OIDv4_ToolKit/blob/master/convert_annotations.py)) and then train it in Darknet.
+To train a model for this project, you need to download and label images (I suggest using [AIGuysCode's OIDv4 ToolKit fork](https://github.com/theAIGuysCode/OIDv4_ToolKit)) and then train it in Darknet, the dataset used for our project can be downloaded from [here](https://drive.google.com/file/d/1k4lNSpqr0f1t98BJb2lrZ3vqsw4_wAks/view?usp=sharing) with the proper annotations already generated.
 
 After that, [convert the weights file.](https://github.com/CarlosPuello/objectDetectionPython#converting-weights-file)
 
