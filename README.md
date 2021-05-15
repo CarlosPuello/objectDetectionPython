@@ -35,22 +35,23 @@ _or_
 
 [download from google drive.](https://drive.google.com/drive/folders/1DiVZc7tjy-C0CJXh1aPl3OakzJfMI5HP?usp=sharing)
 
-Just be sure to leave the file in
+Just be sure to leave the file in the [weights folder]() and [convert the weights file.](https://github.com/CarlosPuello/objectDetectionPython#converting-weights-file)
 
 ## Training
 
 To train a model for this project, you need to download and label images (I suggest using [AIGuysCode's OIDv4 ToolKit fork](https://github.com/theAIGuysCode/OIDv4_ToolKit/blob/master/convert_annotations.py)) and then train it in Darknet.
 
-After that, convert the weights file.
+After that, [convert the weights file.](https://github.com/CarlosPuello/objectDetectionPython#converting-weights-file)
 
 **Note:**
-Be sure to update [examanager.names](https://github.com/CarlosPuello/objectDetectionPython/data/examanager.names) if the classes used for training were different.
+Be sure to update [examanager.names](https://github.com/CarlosPuello/objectDetectionPython/blob/master/data/examanager.names) if the classes used for training were different.
 
 ## Converting weights file
 
-The resulting .weights file should be placed in [the weights folder](https://github.com/CarlosPuello/objectDetectionPython/weights) and then converted to a tensorflow model using [convert_weights.py](https://github.com/CarlosPuello/objectDetectionPython/convert_weights.py).
+The resulting .weights file should be placed in [the weights folder](https://github.com/CarlosPuello/objectDetectionPython/tree/master/weights) and then converted to a tensorflow model using [convert_weights.py](hhttps://github.com/CarlosPuello/objectDetectionPython/blob/master/convert_weights.py).
 
 ## Sources:
 
 [Darknet53](https://www.researchgate.net/figure/Structure-of-the-Darknet53-convolutional-network_fig4_338121987)
+
 [YOLOv3](https://pjreddie.com/darknet/yolo/)
