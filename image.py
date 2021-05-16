@@ -12,7 +12,6 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 '''
 max_output_size = 40
 max_output_size_per_class= 20
-#img_path = "data/images/12.png"
 
 def detect_image(img_path):
     model = YOLOv3Net(cfg.CFGFILE,cfg.MODEL_SIZE,cfg.NUM_CLASSES)
@@ -31,7 +30,7 @@ def detect_image(img_path):
         confidence_threshold=cfg.CONFIDENCE_THRESHOLD)
     image = np.squeeze(image)
     img = draw_outputs(image, boxes, scores, classes, nums, class_names)
-    win_name = 'Image detection'
+    win_name = 'Detection'
     cv2.imshow(win_name, img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()

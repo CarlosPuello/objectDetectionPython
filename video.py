@@ -13,7 +13,7 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 max_output_size = 100
 max_output_size_per_class= 20
 
-def returnCameraIndexes(path):
+def returnCameraOrFile(path):
     if path == 'camera':
         index = 0
         arr = []
@@ -35,8 +35,7 @@ def detect_video(video_path):
     class_names = load_class_names(cfg.CLASS_NAME)
     win_name = 'Detection'
     cv2.namedWindow(win_name)
-    #Change returnCameraIndexes()[0] for file path
-    cap = cv2.VideoCapture(returnCameraIndexes(video_path))
+    cap = cv2.VideoCapture(returnCameraOrFile(video_path))
     frame_size = (cap.get(cv2.CAP_PROP_FRAME_WIDTH),
                   cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     try:
