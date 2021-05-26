@@ -2,5 +2,7 @@
 data/images/
 # Weights
 weights/
+# h5 model
+models/*.h5
 # Cache
 *.pyc

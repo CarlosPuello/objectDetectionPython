@@ -103,4 +103,7 @@ def YOLOv3Net(cfgfile, model_size, num_classes):
         output_filters.append(filters)
     model = Model(input_image, out_pred)
     model.summary()
+    model.save('model/examanager.h5')
+    with open('model/examanager.json', 'w') as f:
+        f.write(model.to_json())
     return model
